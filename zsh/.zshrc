@@ -123,3 +123,7 @@ alias nv='nvim'
 alias omzup='omz update'
 alias up='brewup; omzup'
 alias tm='tmux'
+
+# Enable pgenv
+export PATH="$HOME/.pgenv/bin:$HOME/.pgenv/pgsql/bin:$PATH"
+
