@@ -1,5 +1,5 @@
 theme = 3024 Night
 
 font-feature = -calt
-font-feature =-liga
-font-feature =-dli
+font-feature = -liga
+font-feature = -dli
