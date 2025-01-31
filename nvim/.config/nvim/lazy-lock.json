@@ -40,7 +40,7 @@
   "nvim-treesitter-textobjects": { "branch": "master", "commit": "ad8f0a472148c3e0ae9851e26a722ee4e29b1595" },
   "nvim-ts-autotag": { "branch": "main", "commit": "1cca23c9da708047922d3895a71032bc0449c52d" },
   "octo.nvim": { "branch": "master", "commit": "5594213f6c141e977327d49e17d50845fc7d0af0" },
-  "orgmode": { "branch": "master", "commit": "fa6d7fe0ae993621c8a1826bcba7811e98939882" },
+  "orgmode": { "branch": "master", "commit": "4c942f706d15d66b4745a966d7de52a5391b772d" },
   "persistence.nvim": { "branch": "main", "commit": "f6aad7dde7fcf54148ccfc5f622c6d5badd0cc3d" },
   "plenary.nvim": { "branch": "master", "commit": "3707cdb1e43f5cea73afb6037e6494e7ce847a66" },
   "refactoring.nvim": { "branch": "master", "commit": "2db6d378e873de31d18ade549c2edba64ff1c2e3" },
