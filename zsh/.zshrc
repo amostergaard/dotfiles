@@ -108,9 +108,9 @@ source $ZSH/oh-my-zsh.sh
 source <(fzf --zsh)
 
 # pyenv setup
-export PYENV_ROOT="$HOME/.pyenv"
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
+# export PYENV_ROOT="$HOME/.pyenv"
+# command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+# eval "$(pyenv init -)"
 
 # CUSTOM COMMANDS
 alias brewup='brew update && brew upgrade && brew cleanup && brew doctor'
@@ -121,7 +121,7 @@ alias up='brewup; omzup'
 alias tm='tmux'
 
 # Enable pgenv
-export PATH="$HOME/.pgenv/bin:$HOME/.pgenv/pgsql/bin:$PATH"
+# export PATH="$HOME/.pgenv/bin:$HOME/.pgenv/pgsql/bin:$PATH"
 
 # Configuration for nvm
 export NVM_DIR="$HOME/.nvm"
