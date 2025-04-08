@@ -119,6 +119,7 @@ alias nv='nvim'
 alias omzup='omz update'
 alias up='brewup; omzup'
 alias tm='tmux'
+alias py='python3'
 
 # Enable pgenv
 # export PATH="$HOME/.pgenv/bin:$HOME/.pgenv/pgsql/bin:$PATH"
