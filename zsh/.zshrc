@@ -132,3 +132,11 @@ export NVM_DIR="$HOME/.nvm"
 
 # Created by `pipx` on 2025-04-16 19:24:06
 export PATH="$PATH:/Users/ami/.local/bin"
+ 
+# Pyenv brew fix (from https://github.com/pyenv/pyenv?tab=readme-ov-file#macos on 2025-04-16)
+alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
+
+# Pyenv set up the environemnt for pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - zsh)"
